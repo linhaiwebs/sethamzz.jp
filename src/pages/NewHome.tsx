@@ -335,6 +335,22 @@ export default function NewHome() {
     <div className="min-h-screen relative" style={{ margin: 0, padding: 0 }}>
       <NewHeader />
 
+      <div className="max-w-4xl mx-auto px-4 pt-4">
+        <div className="bg-red-50 border-2 border-red-400 rounded-lg p-4 mb-4 shadow-md">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl flex-shrink-0">⚠️</span>
+            <div className="flex-1">
+              <h3 className="text-sm md:text-base font-bold text-red-900 mb-2">
+                重要：本サービスは投資助言ではありません
+              </h3>
+              <p className="text-xs md:text-sm text-gray-800 leading-relaxed">
+                本サービスで提供される情報は、教育・学習用の参考情報のみを目的としており、投資助言・投資勧誘を一切行いません。投資判断は必ずご自身の責任で行ってください。株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div style={{ margin: 0, padding: 0 }}>
         {loading && (
           <div className="text-center py-12 md:py-16">
@@ -372,8 +388,11 @@ export default function NewHome() {
                     className="w-6 h-6 md:w-8 md:h-8 object-contain"
                   />
                 </div>
-                <p className="text-xs md:text-sm font-bold text-center px-4 mb-6" style={{ color: '#000000' }}>
+                <p className="text-xs md:text-sm font-bold text-center px-4 mb-2" style={{ color: '#000000' }}>
                   過去の株式市場データを分析。教育・学習用の参考情報として提供
+                </p>
+                <p className="text-xs text-center px-4 mb-6" style={{ color: '#666666' }}>
+                  ※データ出典：東京証券取引所等の公開市場情報（準リアルタイム、数分の遅延あり）
                 </p>
                 <div className="mb-6 flex justify-center">
                   <button

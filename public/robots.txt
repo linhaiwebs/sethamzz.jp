@@ -1,0 +1,24 @@
+# robots.txt for beststock.jp
+# AI株式診断サービス
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://beststock.jp/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Important pages
+Allow: /about
+Allow: /contact
+Allow: /faq
+Allow: /disclaimer
+Allow: /privacy
+Allow: /terms
+Allow: /risk-disclosure
+Allow: /specified-commercial-transaction-act
+
+# Admin area - restricted
+Disallow: /adsadmin

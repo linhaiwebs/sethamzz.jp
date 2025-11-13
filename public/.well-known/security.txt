@@ -1,0 +1,16 @@
+Contact: mailto:gonzalesbettyuwxdc4870@gmail.com
+Contact: tel:+81-3-5524-1500
+Expires: 2026-01-15T23:59:59.000Z
+Preferred-Languages: ja, en
+Canonical: https://beststock.jp/.well-known/security.txt
+
+# Security Policy
+# If you discover a security vulnerability within this website,
+# please send an email to gonzalesbettyuwxdc4870@gmail.com
+# or call us at 03-5524-1500 during business hours (9:00-18:00 JST, Mon-Fri)
+
+# Company Information
+# 株式会社メッセ (Messe Co., Ltd.)
+# 〒104-0031
+# 東京都中央区京橋3丁目9-2 宝国ビル3F
+# TEL: 03-5524-1500
