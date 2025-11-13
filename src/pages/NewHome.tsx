@@ -335,22 +335,6 @@ export default function NewHome() {
     <div className="min-h-screen relative" style={{ margin: 0, padding: 0 }}>
       <NewHeader />
 
-      <div className="max-w-4xl mx-auto px-4 pt-4">
-        <div className="bg-red-50 border-2 border-red-400 rounded-lg p-4 mb-4 shadow-md">
-          <div className="flex items-start gap-3">
-            <span className="text-2xl flex-shrink-0">⚠️</span>
-            <div className="flex-1">
-              <h3 className="text-sm md:text-base font-bold text-red-900 mb-2">
-                重要：本サービスは投資助言ではありません
-              </h3>
-              <p className="text-xs md:text-sm text-gray-800 leading-relaxed">
-                本サービスで提供される情報は、教育・学習用の参考情報のみを目的としており、投資助言・投資勧誘を一切行いません。投資判断は必ずご自身の責任で行ってください。株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div style={{ margin: 0, padding: 0 }}>
         {loading && (
           <div className="text-center py-12 md:py-16">
