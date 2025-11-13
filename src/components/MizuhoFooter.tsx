@@ -6,6 +6,12 @@ export default function MizuhoFooter() {
   return (
     <footer className="py-4 md:py-6 mt-2" style={{ color: '#000000' }}>
       <div className="max-w-7xl mx-auto px-4">
+        <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded mb-10">
+          <p className="text-xs md:text-sm text-gray-800 text-center leading-relaxed">
+            <span className="font-bold text-red-900">【重要】</span>本サービスで提供される情報は教育・学習用の参考情報のみを目的としており、投資助言・投資勧誘を一切行いません。株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。投資判断は必ずご自身の責任で行ってください。当社は金融商品取引業者ではなく、投資助言業務を行うことはできません。
+          </p>
+        </div>
+
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic" style={{ color: '#000000' }}>株式会社メッセ</h2>
           <p className="text-sm md:text-base mb-2" style={{ color: '#000000', opacity: 0.9 }}>
@@ -91,14 +97,6 @@ export default function MizuhoFooter() {
                 </Link>
               </li>
             </ul>
-          </div>
-        </div>
-
-        <div className="border-t pt-6 mb-6" style={{ borderColor: 'rgba(0,0,0,0.3)' }}>
-          <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded">
-            <p className="text-xs md:text-sm text-gray-800 text-center leading-relaxed">
-              <span className="font-bold text-red-900">【重要】</span>本サービスで提供される情報は教育・学習用の参考情報のみを目的としており、投資助言・投資勧誘を一切行いません。株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。投資判断は必ずご自身の責任で行ってください。当社は金融商品取引業者ではなく、投資助言業務を行うことはできません。
-            </p>
           </div>
         </div>
       </div>
